@@ -1,0 +1,9 @@
+.cover {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  position: relative;
+  text-align: center;
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

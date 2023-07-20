@@ -1,0 +1,12 @@
+.intro__title {
+  padding: 0;
+  margin-bottom: 0;
+  width: 690px;
+  height: 58px;
+  color: currentColor;
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+}
