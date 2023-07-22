@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Научиться учиться</title>
+    <title>Путешествия по России</title>
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./vendor/fonts.css">
+    <!-- <link rel="stylesheet" href="./vendor/setup.css"> -->
+
+
 </head>
 
 <body>
     <div class="page">
-        <header class="header">
+        <header class="header page__header page__container">
             <img class="header__logo" src="./images/__logo.svg" alt="Россия">
             <div class="header__lang-links">
                 <a href="#" class="header__lang-link">Ru</a>
@@ -24,7 +28,7 @@
                 <h1 class="lead__title">Путешествия
                     по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="lead__image_woman" src="./images/__image.png" alt="Девушка в вагоне">
+                <img class="lead__image" src="./images/__image.png" alt="Девушка в вагоне">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
 
@@ -195,13 +199,13 @@
             </section>
 
             <footer class="footer page__container">
-                <div class="footer__links">
-                    <a class="footer__link">Карты</a>
-                    <a class="footer__link">Погода</a>
-                    <a class="footer__link">Расписание</a>
-                    <a class="footer__link">Календарь</a>
-                    <a class="footer__link">Путешествия</a>
-                </div>
+                <ul class="footer__links">
+                    <li><a class="footer__link">Карты</a></li>
+                    <li><a class="footer__link">Погода</a></li>
+                    <li><a class="footer__link">Расписание</a></li>
+                    <li><a class="footer__link">Календарь</a></li>
+                    <li><a class="footer__link">Путешествия</a></li>
+                </ul>
                 <div class="footer__copyright">© 2020. Лейла Эйвазова</div>
             </footer>
         </main>

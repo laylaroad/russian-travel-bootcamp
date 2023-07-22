@@ -1,10 +1,11 @@
 .footer {
   padding-bottom: 24px;
   margin-top: 88px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 18px;
+  display: inline;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* column-gap: 18px; */
   color: #fff;
   font-family: Inter;
   font-size: 16px;
@@ -12,3 +13,12 @@
   font-weight: 400;
   line-height: 18px;
 }
+/*  */
+/* @media (max-width: 320px) { */
+/* .footer { */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: space-between; */
+/* } */
+/* } */
+/*  */

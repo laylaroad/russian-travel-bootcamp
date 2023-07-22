@@ -1,12 +1,9 @@
 .cover__title {
-  position: absolute;
-  top: 40%;
-  left: 28%;
   color: #ffffff;
   margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-  align-items: center;
+  margin-bottom: 32px;
+  /* text-align: center; */
+  /* align-items: center; */
   font-family: Inter;
   font-size: 72px;
   font-style: normal;
@@ -18,18 +15,12 @@
 
 @media (max-width: 1024px) {
   .cover__title {
-    position: absolute;
-    top: 40%;
-    left: 28%;
     margin-top: 21px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__title {
-    position: absolute;
-    top: 40%;
-    left: 28%;
     margin-bottom: 24px;
     font-size: clamp(32px, 9vw, 72px);
     line-height: clamp(35px, 9vw, 76px);
@@ -38,9 +29,6 @@
 
 @media (max-width: 720px) {
   .cover__title {
-    position: absolute;
-    top: 40%;
-    left: 28%;
     font-size: clamp(32px, 9vw, 72px);
     line-height: clamp(35px, 9vw, 76px);
   }
