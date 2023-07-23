@@ -35,8 +35,6 @@
 @media (max-width: 480px) {
   .cover__title {
     margin-top: 0;
-    font-size: 32px;
-    line-height: 35px;
     margin-bottom: 16px;
     font-size: clamp(32px, 9vw, 72px);
     line-height: clamp(35px, 9vw, 76px);

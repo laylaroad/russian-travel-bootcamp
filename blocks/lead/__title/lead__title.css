@@ -12,13 +12,6 @@
 
 @media (max-width: 1024px) {
   .lead__title {
-    color: #fff;
-    text-align: center;
-    font-family: Inter;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 100px;
     font-size: clamp(40px, 10vw, 96px);
     line-height: clamp(44px, 10vw, 100px);
   }
@@ -26,13 +19,6 @@
 
 @media (max-width: 768px) {
   .lead__title {
-    color: #fff;
-    text-align: center;
-    font-family: Inter;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 100px;
     font-size: clamp(40px, 9vw, 96px);
     line-height: clamp(44px, 9vw, 100px);
   }
@@ -40,13 +26,6 @@
 
 @media (max-width: 320px) {
   .lead__title {
-    color: #fff;
-    text-align: center;
-    font-family: Inter;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 44px;
     font-size: clamp(40px, 9vw, 96px);
     line-height: clamp(44px, 9vw, 100px);
   }

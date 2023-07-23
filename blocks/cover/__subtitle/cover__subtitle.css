@@ -1,8 +1,7 @@
 .cover__subtitle {
   display: flex;
   margin-top: 0;
-  color: #fff;
-  font-family: Inter;
+  color: currentColor;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

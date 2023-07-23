@@ -1,8 +1,8 @@
 .intro__text {
   padding: 0;
+  color: currentColor;
   box-sizing: border-box;
   margin-top: 40px;
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13,27 +13,11 @@
 @media (max-width: 768px) {
   .intro__text {
     padding: 0;
-    box-sizing: border-box;
-    margin-top: 40px;
-    color: #fff;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163%;
   }
 }
 
 @media (max-width: 320px) {
   .intro__text {
-    padding: 0;
-    box-sizing: border-box;
     margin-top: 40px;
-    color: #fff;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163%;
   }
 }
