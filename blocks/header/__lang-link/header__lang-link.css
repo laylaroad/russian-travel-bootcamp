@@ -9,5 +9,5 @@
 }
 
 .header__lang-link:first-child {
-  text-decoration: underline;
+  border-bottom: currentColor 1px solid;
 }

@@ -1,7 +1,10 @@
 .footer__link {
-  margin-right: 18px;
+  color: currentColor;
+  text-decoration: none;
+  opacity: 100%;
 }
 
-.footer__link:last-child {
-  margin-right: 0;
+.footer__link:hover {
+  text-decoration: none;
+  opacity: 70%;
 }
