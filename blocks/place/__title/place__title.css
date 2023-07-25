@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 480px) {
-  .lead__title {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
   }

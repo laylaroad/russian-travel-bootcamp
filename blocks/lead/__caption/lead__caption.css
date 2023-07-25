@@ -1,4 +1,6 @@
 .lead__caption {
+  margin-top: 0;
+  margin-bottom: 0;
   color: currentColor;
   font-size: 10px;
   font-style: normal;

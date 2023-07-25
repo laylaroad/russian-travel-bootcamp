@@ -1,12 +1,15 @@
 @import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
 @import url("../blocks/page/page.css");
-@import url("../blocks/page/_type_wide/page__container_type_wide.css");
+@import url("../blocks/page/__container/_type_wide/page__container_type_wide.css");
 @import url("../blocks/content/__container/content__container.css");
 @import url("../blocks/page/__container/page__container.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/photo-grid/_list/photo-grid_list.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_selected/header__lang-link_selected.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__image/lead__image.css");
@@ -35,3 +38,7 @@
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
+
+* {
+  outline: 1px solid yellow;
+}

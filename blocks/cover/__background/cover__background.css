@@ -1,6 +1,7 @@
 .cover__background {
   background-image: url("../../../images/cover__background.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,8 @@
   position: relative;
   aspect-ratio: 16/10;
   z-index: 0;
+  text-decoration: none;
+  color: currentColor;
 }
 
 .cover__background::before {
@@ -30,6 +33,7 @@
 
 .cover__background:hover::before {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 @media (max-width: 480px) {
