@@ -8,18 +8,19 @@
   line-height: 76px;
   z-index: 1;
   max-width: 560px;
+  max-height: 152px;
 }
 
 @media (max-width: 1024px) {
   .cover__title {
-    margin-top: 21px;
-  }
-}
-
-@media (max-width: 480px) {
-  .cover__title {
     margin-bottom: 16px;
     font-size: clamp(32px, 9vw, 72px);
     line-height: clamp(35px, 9vw, 76px);
+  }
+}
+
+@media (min-width: 480px) {
+  .cover__title {
+    margin-top: 21px;
   }
 }

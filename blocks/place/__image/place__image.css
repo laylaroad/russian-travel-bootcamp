@@ -3,21 +3,3 @@
   object-fit: cover;
   aspect-ratio: 460/460;
 }
-
-@media (max-width: 1024px) {
-  .place__image {
-    aspect-ratio: 440/440;
-  }
-}
-
-@media (max-width: 768px) {
-  .place__image {
-    aspect-ratio: 340/340;
-  }
-}
-
-@media (max-width: 720px) {
-  .place__image {
-    aspect-ratio: 320/320;
-  }
-}
