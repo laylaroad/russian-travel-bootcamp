@@ -1,5 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../vendor/setup.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__container/_type_wide/page__container_type_wide.css");
 @import url("../blocks/content/__container/content__container.css");
@@ -29,7 +30,7 @@
 @import url("../blocks/place/__text/place__text.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 @import url("../blocks/place/__link/place__link.css");
-@import url("../blocks/place/__image/place__image.css;");
+@import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
@@ -40,6 +41,6 @@
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 
-/* * {
+* {
   outline: 1px solid yellow;
-} */
+}

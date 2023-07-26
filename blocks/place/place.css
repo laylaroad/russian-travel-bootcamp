@@ -3,7 +3,6 @@
   grid-template-columns: clamp(440px, 50vw, 460px) 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  overflow-x: auto;
 }
 
 @media (max-width: 1024px) {

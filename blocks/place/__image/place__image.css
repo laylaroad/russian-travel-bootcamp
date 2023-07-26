@@ -1,5 +1,23 @@
 .place__image {
   width: 100%;
+  display: block;
   object-fit: cover;
-  aspect-ratio: 460/460;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    min-height: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+    min-height: 320px;
+  }
 }

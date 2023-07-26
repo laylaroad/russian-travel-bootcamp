@@ -3,10 +3,10 @@
   width: 100%;
   min-height: 58px;
   color: currentColor;
-  font-size: 54px;
+  font-size: 3.4rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 3.7rem;
 }
 
 @media (max-width: 768px) {
@@ -20,8 +20,8 @@
 @media (max-width: 320px) {
   .intro__title {
     padding-top: auto;
-    font-size: 32px;
-    line-height: 35px;
-    height: 70px;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    min-height: 70px;
   }
 }

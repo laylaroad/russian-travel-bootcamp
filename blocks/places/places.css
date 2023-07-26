@@ -2,17 +2,17 @@
   box-sizing: border-box;
   margin-top: 92px;
   display: grid;
-  grid-row-gap: 80px;
+  row-gap: 80px;
 }
 
 @media (max-width: 768px) {
   .places {
-    grid-row-gap: 97px;
+    row-gap: 97px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    grid-row-gap: 50px;
+    row-gap: 50px;
   }
 }

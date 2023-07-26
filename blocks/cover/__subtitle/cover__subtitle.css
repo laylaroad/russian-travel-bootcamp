@@ -2,10 +2,10 @@
   display: flex;
   margin-top: 0;
   color: currentColor;
-  font-size: 18px;
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.4rem;
   max-width: 360px;
   z-index: 1;
 }
