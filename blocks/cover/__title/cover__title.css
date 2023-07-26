@@ -9,6 +9,9 @@
   z-index: 1;
   max-width: 560px;
   max-height: 152px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 1024px) {

@@ -1,32 +1,27 @@
 .lead__image {
   width: 100%;
-  min-height: 615px;
+  min-height: 77.94vh;
   margin-bottom: 8px;
   display: block;
   object-fit: cover;
+  aspect-ratio: 16/10;
 }
 
 @media (max-width: 1024px) {
   .lead__image {
-    min-height: 580px;
+    min-height: 73.5vh;
     margin-bottom: 8px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 440px) {
-  .lead__image {
-    min-height: 300px;
+    min-height: 60.83vh;
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
-    min-height: 200px;
+    min-height: 25.34vh;
   }
 }
