@@ -14,7 +14,7 @@
     url("./Inter-Regular.ttf") format("truetype"),
     url("./Inter-Regular.eot") format("eot");
   font-style: normal;
-  font-weight: 900;
+  font-weight: normal;
 }
 
 @font-face {
