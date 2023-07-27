@@ -1,7 +1,5 @@
 .lead__title {
-  align-items: center;
-  text-align: center;
-  font-size: 6rem;
+  font-size: 96px;
   font-weight: 900;
   line-height: 1.04;
   color: currentColor;

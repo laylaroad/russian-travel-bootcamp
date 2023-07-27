@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .place {
     grid-template-columns: clamp(320px, 50vw, 340px) 1fr;
     grid-column-gap: 28px;
@@ -21,7 +21,7 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-}
+} */
 
 @media (max-width: 720px) {
   .place {
