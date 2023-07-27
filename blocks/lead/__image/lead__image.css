@@ -1,6 +1,6 @@
 .lead__image {
   width: 100%;
-  min-height: 77.94vh;
+  min-height: 615px;
   margin-bottom: 8px;
   display: block;
   object-fit: cover;
@@ -9,19 +9,19 @@
 
 @media (max-width: 1024px) {
   .lead__image {
-    min-height: 73.5vh;
+    min-height: 580px;
     margin-bottom: 8px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    min-height: 60.83vh;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
-    min-height: 25.34vh;
+    min-height: 200px;
   }
 }
