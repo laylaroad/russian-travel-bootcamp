@@ -32,7 +32,6 @@
 
 .cover__background:hover::before {
   opacity: 0.8;
-  text-decoration: none;
 }
 
 @media (max-width: 480px) {
