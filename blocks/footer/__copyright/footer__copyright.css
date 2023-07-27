@@ -2,6 +2,7 @@
   color: currentColor;
   text-align: right;
   margin-top: 0;
+
   padding: 0;
   font-size: 14px;
   font-style: normal;
@@ -13,5 +14,6 @@
   .footer__copyright {
     display: flex;
     align-content: flex-end;
+    margin-top: 48px;
   }
 }

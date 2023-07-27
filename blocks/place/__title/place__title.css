@@ -5,6 +5,7 @@
   font-weight: 900;
   line-height: 76px;
   margin: 0;
+  padding-top: 0;
 }
 
 @media (max-width: 768px) {

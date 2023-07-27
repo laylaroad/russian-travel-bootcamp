@@ -1,4 +1,6 @@
 .places {
+  padding-left: 0;
+  padding-top: 0;
   box-sizing: border-box;
   margin-top: 92px;
   display: grid;
