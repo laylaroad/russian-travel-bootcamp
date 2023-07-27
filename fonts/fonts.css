@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: "Inter-Bold";
+  font-family: "Inter";
   src: url("Inter-Bold.woff") format("woff"),
     url("Inter-Bold.woff2") format("woff2"),
     url("Inter-Bold.ttf") format("truetype"),
