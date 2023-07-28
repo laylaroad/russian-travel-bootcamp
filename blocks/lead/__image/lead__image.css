@@ -1,6 +1,6 @@
 .lead__image {
   width: 100%;
-  min-height: 615px;
+  /* min-height: 615px; */
   margin-bottom: 8px;
   display: block;
   object-fit: cover;
@@ -9,18 +9,17 @@
 
 @media (max-width: 1024px) {
   .lead__image {
-    min-height: 580px;
+    padding-top: 56px;
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .lead__image {
-    min-height: 480px;
   }
-}
+} */
 
 @media (max-width: 320px) {
   .lead__image {
-    min-height: 200px;
+    padding-top: 40px;
   }
 }

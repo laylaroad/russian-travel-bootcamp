@@ -1,13 +1,15 @@
 .cover__background {
+  margin: 0;
   background-image: url("../../../images/cover__background.png");
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1184px;
+  /* max-width: 1184px; */
   min-height: 740px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 24px;
@@ -36,8 +38,21 @@
   opacity: 0.8;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;
     padding-left: 16px;
     padding-right: 16px;
   }

@@ -1,7 +1,7 @@
 .cover__subtitle {
   padding: 0;
   display: flex;
-  margin-top: 0;
+  margin-top: 32px;
   color: currentColor;
   font-size: 18px;
   font-style: normal;
@@ -10,3 +10,15 @@
   max-width: 360px;
   z-index: 1;
 }
+
+/* @media (max-width: 1024px) {
+  .cover__subtitle {
+    margin-top:
+  }
+}
+
+@media (min-width: 480px) {
+  .cover__subtitle {
+    margin-top: 21px;
+  }
+} */
