@@ -4,7 +4,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .place__image {
     min-height: 440px;
   }
@@ -20,4 +20,4 @@
   .place__image {
     min-height: 320px;
   }
-}
+} */

@@ -1,10 +1,19 @@
 .cover {
+  max-width: 1184px;
+  min-height: 740px;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   position: relative;
   text-align: center;
-  margin-top: 92px;
+  margin-top: 68px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
 }
