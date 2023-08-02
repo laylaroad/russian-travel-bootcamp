@@ -1,0 +1,47 @@
+.cover__item {
+  box-sizing: border-box;
+  aspect-ratio: 16/10;
+  background-image: url("../../../images/cover__background.png");
+  width: 100%;
+  min-height: calc(100vw * (740px / 1184));
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  position: relative;
+  margin: 20px auto;
+}
+
+.cover__item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-color: #2a2c2f;
+}
+
+.cover__item:hover:before {
+  opacity: 0.8;
+}
+@media (max-width: 1024px) {
+  .cover__item {
+    min-height: calc(100vw * (640px / 1024));
+  }
+}
+@media (max-width: 768px) {
+  .cover__item {
+    min-height: calc(100vw * (480px / 768));
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__item {
+    min-height: calc(100vw * (200px / 320));
+  }
+}

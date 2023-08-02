@@ -1,6 +1,7 @@
 .places {
   padding: 0;
   /* box-sizing: border-box; */
+  /* min-width: 320px; */
   margin-top: 92px;
   display: grid;
   row-gap: 80px;

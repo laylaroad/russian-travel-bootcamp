@@ -1,28 +1,20 @@
 .cover__title {
-  padding: 0;
-  color: currentColor;
-  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 4.75rem;
-  z-index: 1;
-  max-width: 560px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  line-height: 76px; /* 105.556% */
+  max-width: 520px;
+  margin: 0;
+  z-index: 2;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 560px) {
   .cover__title {
-    margin-bottom: 16px;
-    font-size: clamp(2rem, 9vw, 4.5rem);
-    line-height: clamp(2.9rem, 9vw, 4.75rem);
-  }
-}
-
-@media (min-width: 480px) {
-  .cover__title {
-    margin-top: 21px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
