@@ -1,8 +1,8 @@
 .cover__item {
   box-sizing: border-box;
   background-image: url("../../../images/cover__background.png");
-  width: 100%;
-  min-height: calc(100vw * 0.625);
+  max-width: 1184px;
+  min-height: 740px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -31,6 +31,7 @@
 
 @media (max-width: 1024px) {
   .cover__item {
+    min-height: calc(100vw * 0.625);
     margin: 0;
   }
 }

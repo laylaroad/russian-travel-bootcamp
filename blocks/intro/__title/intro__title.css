@@ -3,24 +3,17 @@
   margin-top: 0;
   margin-bottom: 0;
   width: 100%;
-  /* min-height: 58px; */
   color: currentColor;
   font-size: 54px;
   font-style: normal;
   font-weight: 900;
-  line-height: 3.7rem;
+  line-height: 1.07;
 }
-
-/* @media (max-width: 768px) {
-  .intro__title {
-    margin-top: 110px;
-  }
-} */
 
 @media (max-width: 320px) {
   .intro__title {
     font-size: 32px;
-    line-height: 2.2rem;
+    line-height: 1.09;
     min-height: 70px;
   }
 }
