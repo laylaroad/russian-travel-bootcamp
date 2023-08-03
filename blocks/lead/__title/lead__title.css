@@ -13,6 +13,7 @@
 
 @media (max-width: 768px) {
   .lead__title {
+    max-width: 720px;
     font-size: clamp(40px, 10vw, 96px);
     line-height: clamp(44px, 10vw, 100px);
   }

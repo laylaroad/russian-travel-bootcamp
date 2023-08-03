@@ -1,9 +1,8 @@
 .cover__item {
   box-sizing: border-box;
-  aspect-ratio: 16/10;
   background-image: url("../../../images/cover__background.png");
   width: 100%;
-  min-height: calc(100vw * (740px / 1184));
+  min-height: calc(100vw * 0.625);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -29,19 +28,9 @@
 .cover__item:hover:before {
   opacity: 0.8;
 }
+
 @media (max-width: 1024px) {
   .cover__item {
-    min-height: calc(100vw * (640px / 1024));
-  }
-}
-@media (max-width: 768px) {
-  .cover__item {
-    min-height: calc(100vw * (480px / 768));
-  }
-}
-
-@media (max-width: 320px) {
-  .cover__item {
-    min-height: calc(100vw * (200px / 320));
+    margin: 0;
   }
 }

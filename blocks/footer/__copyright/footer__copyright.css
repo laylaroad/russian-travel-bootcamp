@@ -3,18 +3,17 @@
   text-align: right;
   margin-top: 0;
   margin-bottom: 0;
-
   padding: 0;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1rem;
+  line-height: 1.14;
 }
 
 @media (max-width: 720px) {
   .footer__copyright {
     display: flex;
     align-content: flex-end;
-    margin-top: 48px;
+    padding-top: 48px;
   }
 }
