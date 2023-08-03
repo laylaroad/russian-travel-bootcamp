@@ -16,7 +16,6 @@
 @media (max-width: 768px) {
   .cover {
     padding-top: 88px;
-    padding: calc((100vw - 320px) / (768px - 320));
   }
 }
 
