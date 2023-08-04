@@ -16,6 +16,7 @@
 
 @media (max-width: 1024px) {
   .header {
+    margin-top: 0;
     padding-top: 28px;
     padding-bottom: 48px;
     padding-left: clamp(24px, 5vw, 48px);
@@ -25,7 +26,6 @@
 
 @media (max-width: 768px) {
   .header {
-    margin: 0;
     padding-left: clamp(16px, 5vw, 24px);
     padding-right: clamp(16px, 5vw, 24px);
   }

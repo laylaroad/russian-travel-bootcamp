@@ -11,10 +11,16 @@
   text-rendering: optimizeLegibility;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
   .lead__title {
-    max-width: 720px;
-    font-size: clamp(40px, 10vw, 96px);
-    line-height: clamp(44px, 10vw, 100px);
+    max-width: 721px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__title {
+    margin-bottom: 16px;
   }
 }

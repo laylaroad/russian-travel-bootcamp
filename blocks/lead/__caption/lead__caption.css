@@ -1,6 +1,6 @@
 .lead__caption {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   color: currentColor;
   font-size: 10px;
   font-style: normal;
@@ -16,5 +16,12 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    padding-top: 0;
+    padding-left: 16px;
   }
 }

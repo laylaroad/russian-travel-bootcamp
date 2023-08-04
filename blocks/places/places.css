@@ -15,8 +15,8 @@
 @media (max-width: 768px) {
   .places {
     padding-top: 88px;
-    padding-left: clamp(16px, 5vw, 24px);
-    padding-right: clamp(16px, 5vw, 24px);
+    padding-left: 16px;
+    padding-right: 16px;
     row-gap: 73px;
   }
 }
@@ -24,8 +24,10 @@
 @media (max-width: 320px) {
   .places {
     padding-top: 64px;
-    padding-left: clamp(8px, 5vw, 16px);
-    padding-right: clamp(8px, 5vw, 16px);
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-left: clamp(8px, 5vw, 16px);
+    padding-right: clamp(8px, 5vw, 16px); */
     row-gap: 50px;
   }
 }

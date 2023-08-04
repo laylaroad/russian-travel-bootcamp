@@ -11,3 +11,10 @@
 .place__link:hover {
   opacity: 80%;
 }
+
+@media (max-width: 320px) {
+  .place__link {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

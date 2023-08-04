@@ -22,16 +22,16 @@
 
 @media (max-width: 1024px) {
   .footer {
-    padding-left: clamp(24px, 5vw, 48px);
-    padding-right: clamp(24px, 5vw, 48px);
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media (max-width: 720px) {
   .footer {
     padding-top: 88px;
-    padding-left: clamp(16px, 5vw, 24px);
-    padding-right: clamp(16px, 5vw, 24px);
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 24px;
     line-height: 1;
     flex-direction: column;
@@ -40,8 +40,8 @@
 
 @media (max-width: 320px) {
   .footer {
-    padding-left: clamp(8px, 5vw, 16px);
-    padding-right: clamp(8px, 5vw, 16px);
+    padding-left: 8px;
+    padding-right: 8px;
     margin-top: 0;
     padding-top: 64px;
   }
