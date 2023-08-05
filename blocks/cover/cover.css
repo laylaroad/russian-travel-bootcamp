@@ -6,13 +6,6 @@
   padding-top: 92px;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 @media (max-width: 768px) {
   .cover {
     padding-top: 88px;
