@@ -1,24 +1,24 @@
-# Проект: Путешествие по России
+# Project: Travel Across Russia
 
-### Обзор
+### Overview
 
-- Что за проект
-- Технологии
+- About the Project
+- Technologies
 
-### Что за проект
+### About the Project
 
-Одностраничный сайт с адаптивной версткой: разрешения на десктоп (от 1280), средних размеров ноутбуки (1024-1280), горизонтальное положение планшета(768-1024) и мобильные устройства (от 425). Сверстан по дизайну макета в Figma.
+A single-page website with responsive design: resolutions for desktop (from 1280px), medium-sized laptops (1024-1280px), horizontal tablet orientation (768-1024px), and mobile devices (from 425px). The site is built based on a design layout in Figma.
 
-[Ссылка на проект.](https://laylaroad.github.io/russian-travel-bootcamp/)
+[Project Link](https://laylaroad.github.io/russian-travel-bootcamp/)
 
-### Технологии
+### Technologies
 
-В проектной работе были применены:
+The project work involved:
 
 - Grid
 - Flexbox
-- Оптизимация изображений
-- Позиционирование элементов
-- Подключение локальных шрифтов
-- Миксы и модификаторы
-- Nested структура
+- Image optimization
+- Element positioning
+- Local fonts integration
+- Mixes and modifiers
+- Nested structure
